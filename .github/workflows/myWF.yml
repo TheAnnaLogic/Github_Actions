@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - run: echo "The job was automatically triggered by a ${{ secrets.MY_AM }} event."
-      - run: echo "The job was automatically triggered by a ${{ vars.AM }} event."
+      - run: echo "The job was automatically triggered by a ${{ secrets.AM }} event."
+      - run: echo "The job was automatically triggered by a ${{ vars.MY_AM }} event."
